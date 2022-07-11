@@ -39,7 +39,23 @@
 
   /* nav height */
   --nav-height: 64px;
+   /* recent */
+   --fg-color-dark-blue: #204194;
+   --graphite-20: #d8dada;
+   --graphite-100: #3c4242;
+   --magenta-100: #d0006f;
+   --magenta-40: #ec99c5;
+   --mulberry-20: #e6ccdc;
+   --purple-20: #d8cfdd;
+   --purple-80: #634075;
+   --purple-100: #3c1053;
+   --white: #fff;
+   --heading-color: #3c4242;
 
+   /*carousel*/
+   --color-gray-300: #D4D4D4;
+   --color-1: #73c41d;
+   --color-1-shade-5: #1D9336;
 }
 
 body {
@@ -108,7 +124,8 @@ pre {
 /* buttons */
 
 a.button:any-link, button {
-  font-family: var(--font-family-body);
+  /*font-family: var(--font-family-body);*/
+  font-family: var(--body-font-family);
   display: inline-block;
   box-sizing: border-box;
   text-decoration: none;
