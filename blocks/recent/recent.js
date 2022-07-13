@@ -53,7 +53,7 @@ export default async function decorate(block) {
         }
 
         const viewContent = document.createElement('p');
-        viewContent.classList.add('related-view-content');
+        viewContent.classList.add('recent-view-content');
         card.append(viewContent);
 
         const link = card.querySelector(':scope a');
